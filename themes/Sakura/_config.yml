@@ -3,16 +3,16 @@ prefixName: 故事还长,别失望
 siteName: 春天的熊
 # favicon and site master avatar
 favicon: /images/favicon.ico
-avatar: /blog/touxiang/tx.jpg
+avatar: tou.jpg
 url: /
 description: 半身风雨半身伤，半句别恨半心凉。
-cdn: https://cdn.jsdelivr.net/gh/Toprootman/tupian@master
+cdn: https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/
 pjax: 1
 # 1开启
 mathjax: 0
 
 notice: 最最喜欢你,"什么程度？""像喜欢春天的熊一样"。
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+# lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
@@ -47,15 +47,15 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
-
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/0.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/1.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/2.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/3.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/4.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/5.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/6.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/7.jpg
+  - https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/tx.jpg
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
 
@@ -68,27 +68,27 @@ startdash:
 
 
 # your site build time or founded date
-siteBuildingTime: 12/26/2019
+siteBuildingTime: 01/01/2020
 
 #social  url, img PC端配置
 social:
-  github: {url: https://github.com/Toprootman, img: /blog/fengxiang/github.png}
-  qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2138427737&site=qq&menu=yes, img: /blog/fengxiang/qq.png}
-  wechat: {url: /#, qrcode: /blog/qrcode/wechat.jpg, img: /blog/fengxiang/wechat.png}
-  wangzhan: {url: http://www.toprootman.cn, img: /blog/fengxiang/wdwz.png}
-  bilibili: {url: https://space.bilibili.com/85618818, img: /blog/fengxiang/bilibili.png}
-  qzone: {url: https://user.qzone.qq.com/2138427737, img: /blog/fengxiang/qzone.png}
+  github: {url: https://github.com/lixinlidaye, img: timg.png}
+  # qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2138427737&site=qq&menu=yes, img: /blog/fengxiang/qq.png}
+  wechat: {url: /#, qrcode: wx.jpg, img: }
+  # wangzhan: {url: http://www.toprootman.cn, img: /blog/fengxiang/wdwz.png}
+  bilibili: {url: https://space.bilibili.com/56196833, img: timg.png}
+  # qzone: {url: https://user.qzone.qq.com/2138427737, img: /blog/fengxiang/qzone.png}
 
 #social  url, img 移动端配置
 msocial:
-  github: {url: https://github.com/Toprootman, fa: fa-github, color: 333}
-  qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2138427737&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+  github: {url: https://github.com/lixinlidaye, fa: fa-github, color: 333}
+  qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2322368970&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  paypal: https://www.paypal.me/huahuo
-  alipay: /blog/qrcode/zfb.png
-  wechat: /blog/qrcode/wx.png
-  wechatSQ: /blog/qrcode/wx.png
+  # paypal: https://www.paypal.me/huahuo
+  # alipay: /blog/qrcode/zfb.png
+  # wechat: /blog/qrcode/wx.png
+  # wechatSQ: /blog/qrcode/wx.png
 
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
