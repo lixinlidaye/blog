@@ -1,4 +1,5 @@
 # site name
+# 站点名
 prefixName: 故事还长,别失望
 siteName: 春天的熊
 # favicon and site master avatar
@@ -6,7 +7,7 @@ favicon: /images/favicon.ico
 avatar: tou.jpg
 url: /
 description: 半身风雨半身伤，半句别恨半心凉。
-cdn: https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@master/
+cdn: https://cdn.jsdelivr.net/gh/lixinlidaye/cdn@cd7e304209dc7c2c1aee50441313439f705fe7e9/
 pjax: 1
 # 1开启
 mathjax: 0
@@ -24,8 +25,8 @@ menus:
     # 转载: {path: /categories/转载/, fa: fa-book }
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
-    # 书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
-    # 番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
     歌单: {path: /music/, fa: fa-headphones },
     # 图集: {path: /tags/图集/, fa: fa-photo }
   } }
@@ -34,11 +35,11 @@ menus:
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
   关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
     我？: {path: /about/, fa: fa-meetup}, 
-    # 主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura }
     # Lab: {path: /lab/, fa: fa-cogs },
   } }
   客户端: { path: /client/, fa: fa-android faa-vertical }
-  # RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
 
 
 # Home page sort type: -1: newer first，1: older first.
@@ -61,22 +62,23 @@ bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash: 
-  # - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  # - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  # - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+  - {url: https://github.com/honjun/hexo-theme-sakura/blob/master/README-zh_cn.md, title: Sakura, desc: 本站 hexo 主题, img: sakura.jfif}
+  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 给他打波广告, img: bl.png}
+  - {url: /, title: 万事屋, desc: 空着好看, img: yinshi.jpg}
 
 
 
 # your site build time or founded date
+# 你的站点建立日期
 siteBuildingTime: 01/01/2020
 
-#social  url, img PC端配置
+#(社交按钮)social  url, img PC端配置
 social:
-  github: {url: https://github.com/lixinlidaye, img: timg.png}
+  github: {url: https://github.com/lixinlidaye, img: github.png}
   # qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2138427737&site=qq&menu=yes, img: /blog/fengxiang/qq.png}
-  wechat: {url: /#, qrcode: wx.jpg, img: }
+  wechat: {url: /#, qrcode: wx.jpg, img: wechat.png }
   # wangzhan: {url: http://www.toprootman.cn, img: /blog/fengxiang/wdwz.png}
-  bilibili: {url: https://space.bilibili.com/56196833, img: timg.png}
+  bilibili: {url: https://space.bilibili.com/56196833, img: bilibili.png}
   # qzone: {url: https://user.qzone.qq.com/2138427737, img: /blog/fengxiang/qzone.png}
 
 #social  url, img 移动端配置
@@ -85,10 +87,10 @@ msocial:
   qq: {url: http://wpa.qq.com/msgrd?v=3&uin=2322368970&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  # paypal: https://www.paypal.me/huahuo
-  # alipay: /blog/qrcode/zfb.png
-  # wechat: /blog/qrcode/wx.png
-  # wechatSQ: /blog/qrcode/wx.png
+  paypal: /#
+  alipay: zfbsq.jpg	
+  wechat: wxsq.jpg
+  wechatSQ: wxsq.jpg
 
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
