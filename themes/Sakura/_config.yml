@@ -1,7 +1,7 @@
 # site name
 # 站点名
-prefixName: 故事还长,别失望
-siteName: 春天的熊
+prefixName: なごりゆき
+siteName: 走私心动
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: tou.jpg
@@ -12,7 +12,7 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: 最最喜欢你,"什么程度？""像喜欢春天的熊一样"。
+notice: 二斤桃花酿做酒，万杯不及你温柔
 # lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
